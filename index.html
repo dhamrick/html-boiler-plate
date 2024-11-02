@@ -29,7 +29,8 @@
         </p>
 
         <h1>Now I am working with lists</h1>
-        <p> This should be an unordered list:<ul>
+        <p> This should be an unordered list:
+            <ul>
                 <li>I need to go to TJ's soon</li>
                 <li>Going to buy food for the party</li>
                 <li>Baby Cathy doesn't want to go</li>
@@ -45,5 +46,30 @@
                 <li>Take my meds</li>
             </ol>
         </p>
+        <h2>Nesting some lists</h2>
+        <ul>
+            <li>first item</li>
+            <li>second item
+                <ul>
+                    <li>second item first subitem</li>
+                    <li>second item second subitem</li>
+                </ul>
+            </li>
+            <li>third item</li>
+            <li>fourth item
+                <ol start="10">
+                    <li>fourth item first subitem numbered 10</li>
+                    <li>fourth item second subitme numbered 11</li>
+                </ol>
+            </li>
+            <li>fight item
+                <!-- reverse doesn't reorder, just renumbers!!! -->
+                <ol reversed>
+                    <li>fifth item first subitem on top but with largest number because reversed</li>
+                    <li>fifth item second subitem</li>
+                    <li>fifth item third subitem on bottom but with smallest number because reversed</li>
+                </ol>
+            </li>
+        </ul>
     </body>
 </html>
